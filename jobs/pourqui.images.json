@@ -1,0 +1,8 @@
+{
+  "model": "higgsfield-ai/soul/v2/standard",
+  "defaults": { "aspect_ratio": "3:4", "resolution": "1080p", "batch_size": 1 },
+  "images": [
+    { "id": "trois",
+      "prompt": "Editorial group portrait outdoors in an East African city street at golden hour: three women of different ages stand side by side and laugh together, a market seller in her fifties with a golden-yellow headwrap holding a woven basket, a young entrepreneur in a deep forest-green dress holding her smartphone, and a university student with a backpack and a notebook. Warm amber light, deep green tones, softly blurred street behind, realistic, candid, 50mm, shallow depth of field. No text, no logos." }
+  ]
+}

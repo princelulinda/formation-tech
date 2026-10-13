@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T00:00:00Z",
+  "title": "Design System: Femmes & Tech",
+  "extensions": {
+    "colorMeta": {
+      "foret": {
+        "role": "primary",
+        "displayName": "Vert forêt",
+        "canonical": "#14532d",
+        "tonalRamp": [
+          "oklch(15% 0.08 152)",
+          "oklch(25% 0.08 152)",
+          "oklch(36% 0.08 152)",
+          "oklch(48% 0.08 152)",
+          "oklch(60% 0.08 152)",
+          "oklch(72% 0.08 152)",
+          "oklch(84% 0.08 152)",
+          "oklch(95% 0.08 152)"
+        ]
+      },
+      "foret-900": {
+        "role": "primary",
+        "displayName": "Forêt de nuit",
+        "canonical": "#0c3a1e",
+        "tonalRamp": [
+          "oklch(15% 0.07 152)",
+          "oklch(25% 0.07 152)",
+          "oklch(36% 0.07 152)",
+          "oklch(48% 0.07 152)",
+          "oklch(60% 0.07 152)",
+          "oklch(72% 0.07 152)",
+          "oklch(84% 0.07 152)",
+          "oklch(95% 0.07 152)"
+        ]
+      },
+      "ambre": {
+        "role": "secondary",
+        "displayName": "Ambre marqueur",
+        "canonical": "#fbbf24",
+        "tonalRamp": [
+          "oklch(15% 0.16 84)",
+          "oklch(25% 0.16 84)",
+          "oklch(36% 0.16 84)",
+          "oklch(48% 0.16 84)",
+          "oklch(60% 0.16 84)",
+          "oklch(72% 0.16 84)",
+          "oklch(84% 0.16 84)",
+          "oklch(95% 0.16 84)"
+        ]
+      },
+      "feuille": {
+        "role": "tertiary",
+        "displayName": "Vert feuille",
+        "canonical": "#16a34a",
+        "tonalRamp": [
+          "oklch(15% 0.15 149)",
+          "oklch(25% 0.15 149)",
+          "oklch(36% 0.15 149)",
+          "oklch(48% 0.15 149)",
+          "oklch(60% 0.15 149)",
+          "oklch(72% 0.15 149)",
+          "oklch(84% 0.15 149)",
+          "oklch(95% 0.15 149)"
+        ]
+      },
+      "papier": {
+        "role": "neutral",
+        "displayName": "Papier",
+        "canonical": "#f8fafc",
+        "tonalRamp": [
+          "oklch(15% 0.006 248)",
+          "oklch(25% 0.006 248)",
+          "oklch(36% 0.006 248)",
+          "oklch(48% 0.006 248)",
+          "oklch(60% 0.006 248)",
+          "oklch(72% 0.006 248)",
+          "oklch(84% 0.006 248)",
+          "oklch(95% 0.006 248)"
+        ]
+      },
+      "blanc": {
+        "role": "neutral",
+        "displayName": "Blanc",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(25% 0 0)",
+          "oklch(36% 0 0)",
+          "oklch(48% 0 0)",
+          "oklch(60% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "encre": {
+        "role": "neutral",
+        "displayName": "Encre",
+        "canonical": "#10241a",
+        "tonalRamp": [
+          "oklch(15% 0.03 158)",
+          "oklch(25% 0.03 158)",
+          "oklch(36% 0.03 158)",
+          "oklch(48% 0.03 158)",
+          "oklch(60% 0.03 158)",
+          "oklch(72% 0.03 158)",
+          "oklch(84% 0.03 158)",
+          "oklch(95% 0.03 158)"
+        ]
+      },
+      "mousse": {
+        "role": "neutral",
+        "displayName": "Mousse",
+        "canonical": "#4b6355",
+        "tonalRamp": [
+          "oklch(15% 0.03 158)",
+          "oklch(25% 0.03 158)",
+          "oklch(36% 0.03 158)",
+          "oklch(48% 0.03 158)",
+          "oklch(60% 0.03 158)",
+          "oklch(72% 0.03 158)",
+          "oklch(84% 0.03 158)",
+          "oklch(95% 0.03 158)"
+        ]
+      },
+      "trait": {
+        "role": "neutral",
+        "displayName": "Trait",
+        "canonical": "#d9e2dc",
+        "tonalRamp": [
+          "oklch(15% 0.012 155)",
+          "oklch(25% 0.012 155)",
+          "oklch(36% 0.012 155)",
+          "oklch(48% 0.012 155)",
+          "oklch(60% 0.012 155)",
+          "oklch(72% 0.012 155)",
+          "oklch(84% 0.012 155)",
+          "oklch(95% 0.012 155)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titre et répliques du film d'ouverture uniquement."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Titres de section."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Titres des modules ; dates du calendrier en 700 à 1,5rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphes, réponses, listes ; 52 à 60 ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Libellés de champs, navigation, mentions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lueur-ambre",
+        "value": "0 10px 30px -10px rgba(251,191,36,.7)",
+        "purpose": "Sous le bouton principal ambre posé sur le film."
+      },
+      {
+        "name": "ombre-foret",
+        "value": "0 18px 40px -18px rgba(12,58,30,.7)",
+        "purpose": "Sous un élément forêt qui chevauche une photo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-sortie",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Unique courbe : apparitions, fondus du film, flèche, plus des questions, trait de marqueur."
+      },
+      {
+        "name": "apparition",
+        "value": "opacity 700ms, transform 900ms (translateY 18px), décalage 80ms par élément",
+        "purpose": "Entrée des blocs à l'écran ; désactivée en mouvement réduit."
+      },
+      {
+        "name": "trait-marqueur",
+        "value": "stroke-dashoffset 900ms, délai 200ms",
+        "purpose": "Tracé du souligné ambre, une fois."
+      },
+      {
+        "name": "interaction",
+        "value": "300ms",
+        "purpose": "Survol du bouton, rotation du plus."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "texture": {
+      "name": "grain",
+      "value": "SVG feTurbulence fractalNoise baseFrequency .9, overlay, opacité 0.18",
+      "purpose": "Grain argentique sur toutes les photos."
+    },
+    "hairline": {
+      "plate": "#14532d",
+      "hi": "#fbbf24",
+      "edge": "rgba(248,250,252,.78)",
+      "mid": "rgba(248,250,252,.4)",
+      "lo": "rgba(248,250,252,.2)",
+      "stroke": 1.1
+    }
+  },
+  "components": [
+    {
+      "name": "Bouton principal ambre",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "« Je m'inscris » : l'unique bouton ambre, posé sur le film.",
+      "html": "<a href=\"#\" class=\"ds-btn-ambre\">Je m'inscris <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><path d=\"M3 9h11M10 4.5 14.5 9 10 13.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-btn-ambre{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);display:inline-flex;align-items:center;gap:12px;background:var(--color-ambre,#fbbf24);color:var(--color-encre,#10241a);padding:16px 28px;border-radius:9999px;font-weight:700;font-size:1rem;text-decoration:none;box-shadow:0 10px 30px -10px rgba(251,191,36,.7);transition:transform 300ms var(--ease-sortie,cubic-bezier(0.16,1,0.3,1));}.ds-btn-ambre svg{transition:transform 300ms var(--ease-sortie,cubic-bezier(0.16,1,0.3,1));}.ds-btn-ambre:hover{transform:translateY(-2px);}.ds-btn-ambre:hover svg{transform:translateX(4px);}.ds-btn-ambre:focus-visible{outline:2px solid var(--color-ambre,#fbbf24);outline-offset:3px;}"
+    },
+    {
+      "name": "Bouton d'envoi forêt",
+      "kind": "button",
+      "refersTo": "button-submit",
+      "description": "Envoi du formulaire, sur panneau papier.",
+      "html": "<button type=\"button\" class=\"ds-btn-foret\">Envoyer ma candidature</button>",
+      "css": ".ds-btn-foret{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);display:inline-flex;align-items:center;gap:12px;background:var(--color-foret,#14532d);color:var(--color-papier,#f8fafc);padding:16px 32px;border:0;border-radius:9999px;font-weight:700;font-size:1rem;cursor:pointer;transition:background-color 150ms;}.ds-btn-foret:hover{background:var(--color-foret-900,#0c3a1e);}.ds-btn-foret:focus-visible{outline:2px solid var(--color-ambre,#fbbf24);outline-offset:3px;}.ds-btn-foret:disabled{opacity:.7;cursor:wait;}"
+    },
+    {
+      "name": "Lien souligné ambre",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action secondaire textuelle : souligné ambre qui passe au forêt.",
+      "html": "<a href=\"#\" class=\"ds-lien\">Voir le programme</a>",
+      "css": ".ds-lien{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);color:var(--color-foret,#14532d);font-weight:600;text-decoration:underline;text-decoration-color:var(--color-ambre,#fbbf24);text-decoration-thickness:2px;text-underline-offset:6px;}.ds-lien:hover{text-decoration-color:var(--color-foret,#14532d);}.ds-lien:focus-visible{outline:2px solid var(--color-ambre,#fbbf24);outline-offset:3px;}"
+    },
+    {
+      "name": "Champ de saisie",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Champ blanc sur panneau papier, libellé au-dessus.",
+      "html": "<div class=\"ds-champ\"><label for=\"ds-nom\">Nom complet</label><input id=\"ds-nom\" placeholder=\"Aline\"></div>",
+      "css": ".ds-champ{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);color:var(--color-encre,#10241a);}.ds-champ label{display:block;margin-bottom:8px;font-size:.875rem;font-weight:600;}.ds-champ input{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);width:100%;background:#fff;border:1px solid var(--color-trait,#d9e2dc);border-radius:12px;padding:12px 16px;font-size:1rem;color:var(--color-encre,#10241a);transition:border-color 150ms;}.ds-champ input::placeholder{color:rgba(75,99,85,.7);}.ds-champ input:hover{border-color:var(--color-mousse,#4b6355);}.ds-champ input:focus{border-color:var(--color-foret,#14532d);outline:2px solid rgba(20,83,45,.25);outline-offset:0;}"
+    },
+    {
+      "name": "Tuiles de choix",
+      "kind": "chip",
+      "refersTo": "choice-tile",
+      "description": "Choix exclusif (niveau) ; la tuile cochée devient forêt plein.",
+      "html": "<div class=\"ds-tuiles\"><label><input type=\"radio\" name=\"n\" checked>Débutante</label><label><input type=\"radio\" name=\"n\">Intermédiaire</label><label><input type=\"radio\" name=\"n\">Avancée</label></div>",
+      "css": ".ds-tuiles{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);display:grid;grid-template-columns:repeat(3,1fr);gap:8px;}.ds-tuiles label{cursor:pointer;border:1px solid var(--color-trait,#d9e2dc);border-radius:12px;padding:12px;text-align:center;font-size:.875rem;font-weight:500;color:var(--color-encre,#10241a);transition:background-color 150ms,border-color 150ms;}.ds-tuiles label:hover{border-color:var(--color-mousse,#4b6355);}.ds-tuiles input{position:absolute;opacity:0;width:1px;height:1px;}.ds-tuiles label:has(:checked){background:var(--color-foret,#14532d);border-color:var(--color-foret,#14532d);color:var(--color-papier,#f8fafc);}.ds-tuiles label:has(:focus-visible){outline:2px solid var(--color-ambre,#fbbf24);}"
+    },
+    {
+      "name": "Navigation sur le film",
+      "kind": "nav",
+      "refersTo": "button-nav",
+      "description": "Barre fine sans fond, posée sur le voile forêt du film.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-nom\">Femmes &amp; Tech</a><div><a href=\"#\">Programme</a><a href=\"#\">Calendrier</a><a href=\"#\" class=\"ds-nav-cta\">Candidater</a></div></nav>",
+      "css": ".ds-nav{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);display:flex;align-items:center;justify-content:space-between;padding:20px 32px;background:linear-gradient(to bottom,rgba(12,58,30,.95),rgba(12,58,30,.75));}.ds-nav a{color:rgba(248,250,252,.85);text-decoration:none;font-size:.875rem;}.ds-nav a:hover{color:#f8fafc;}.ds-nav div{display:flex;align-items:center;gap:24px;}.ds-nav .ds-nav-nom{font-family:var(--font-titre,\"Bricolage Grotesque\",ui-sans-serif,system-ui,sans-serif);font-variation-settings:\"wdth\" 82,\"opsz\" 96;letter-spacing:-0.03em;line-height:.95;font-size:1.25rem;font-weight:800;color:#f8fafc;}.ds-nav .ds-nav-cta{border:1px solid rgba(248,250,252,.4);border-radius:9999px;padding:8px 16px;font-weight:600;color:#f8fafc;transition:color 150ms,border-color 150ms;}.ds-nav .ds-nav-cta:hover{border-color:var(--color-ambre,#fbbf24);color:var(--color-ambre,#fbbf24);}.ds-nav a:focus-visible{outline:2px solid var(--color-ambre,#fbbf24);outline-offset:3px;}"
+    },
+    {
+      "name": "Titre au trait de marqueur",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Signature : un mot clé souligné d'un trait ambre tracé à main levée.",
+      "html": "<h2 class=\"ds-titre\">Prête à <span class=\"ds-marqueur\">commencer<svg viewBox=\"0 0 100 10\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path pathLength=\"1\" d=\"M2 6.5C22 3.2 48 2.8 70 4.2c9 .6 18 1.4 28 .4\"/></svg></span> ?</h2>",
+      "css": ".ds-titre{font-family:var(--font-titre,\"Bricolage Grotesque\",ui-sans-serif,system-ui,sans-serif);font-variation-settings:\"wdth\" 82,\"opsz\" 96;letter-spacing:-0.03em;line-height:.95;font-size:clamp(2.3rem,5vw,4rem);font-weight:800;color:var(--color-foret,#14532d);text-wrap:balance;margin:0;}.ds-marqueur{position:relative;white-space:nowrap;}.ds-marqueur svg{position:absolute;left:-2%;bottom:-.12em;width:104%;height:.32em;overflow:visible;}.ds-marqueur path{fill:none;stroke:var(--color-ambre,#fbbf24);stroke-width:7;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 900ms var(--ease-sortie,cubic-bezier(0.16,1,0.3,1)) 200ms;}.ds-titre:hover .ds-marqueur path,.ds-marqueur path{stroke-dashoffset:0;}"
+    },
+    {
+      "name": "Panneau de formulaire",
+      "kind": "card",
+      "refersTo": "form-panel",
+      "description": "Panneau papier à coins de 28 px posé sur l'aplat forêt.",
+      "html": "<div class=\"ds-fond\"><div class=\"ds-panneau\"><p class=\"ds-panneau-t\">Merci Aline, c'est reçu.</p><p>Vous aurez une réponse après la clôture.</p></div></div>",
+      "css": ".ds-fond{background:var(--color-foret,#14532d);padding:32px;}.ds-panneau{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);background:var(--color-papier,#f8fafc);color:var(--color-encre,#10241a);border-radius:28px;padding:40px;}.ds-panneau-t{font-family:var(--font-titre,\"Bricolage Grotesque\",ui-sans-serif,system-ui,sans-serif);font-variation-settings:\"wdth\" 82,\"opsz\" 96;letter-spacing:-0.03em;line-height:.95;font-size:2.25rem;font-weight:800;margin:0 0 16px;}.ds-panneau p:last-child{color:var(--color-mousse,#4b6355);font-size:1.125rem;line-height:1.625;margin:0;}"
+    },
+    {
+      "name": "Étiquette Date limite",
+      "kind": "chip",
+      "refersTo": "",
+      "description": "Seule étiquette du système, sur l'étape clé du calendrier.",
+      "html": "<span class=\"ds-etiquette\">Date limite</span>",
+      "css": ".ds-etiquette{font-family:var(--font-texte,\"Figtree\",ui-sans-serif,system-ui,sans-serif);display:inline-block;border-radius:9999px;background:rgba(251,191,36,.25);color:var(--color-encre,#10241a);padding:4px 12px;font-size:.75rem;font-weight:600;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "L'étal au marché, vu depuis toute la ville",
+    "overview": "Le système raconte un passage : de l'étal physique, où le quartier connaît déjà la vendeuse, à l'écran du téléphone, où toute la ville peut la découvrir. Le vert forêt occupe des régions entières (le film d'ouverture, la section « portée », l'inscription, le pied de page), le papier porte la lecture, et l'ambre n'apparaît que comme un trait de marqueur : un souligné tracé à la main, le bouton principal, la figure Hairline, la barre de progression du film. Rien n'est décoré pour décorer ; chaque accent ambre désigne ce qu'il faut voir ou faire.\n\nLa densité est éditoriale et aérée : grandes sections (96 à 128 px de respiration verticale), titres énormes, étroits et lourds en Bricolage Grotesque, texte courant en Figtree à 18 px avec une interligne généreuse. Les photos portent un grain argentique léger et des coins très arrondis (28 px), comme des tirages posés sur la table. Le mouvement est lent et décéléré (une seule courbe, `ease-sortie`), toujours facultatif : tout le contenu est lisible sans animation et sans la vidéo.\n\nLe système refuse explicitement le hero en dégradé décoratif avec photo stock et rangée de quatre cartes à icônes : le film plein cadre fait le pitch, le programme se lit semaine par semaine.",
+    "keyCharacteristics": [
+      "Aplats forêt sur des sections entières, alternant avec le papier ; pas de cartes posées sur fond gris.",
+      "Un seul accent chaud, l'ambre, utilisé comme un trait de marqueur.",
+      "Titres condensés (wdth 82), extra-gras, interligne 0,95, approche serrée.",
+      "Photos au grain argentique, coins de 28 px.",
+      "Une seule courbe de mouvement, et un mode réduit qui montre tout immédiatement.",
+      "Mobile d'abord : une colonne, gouttière de 16 px, action d'inscription toujours accessible."
+    ],
+    "rules": [
+      {
+        "name": "La règle du trait de marqueur",
+        "body": "L'ambre est un geste, pas une surface : un souligné, un bouton, un mot, une ligne fine. Il ne remplit jamais un fond de section ni une carte. Sur un écran donné, il désigne une ou deux choses au plus.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle des aplats",
+        "body": "Le vert forêt s'applique à des régions entières, d'un bord à l'autre de la fenêtre. Les sections alternent forêt et papier (ou blanc) ; elles ne se résolvent pas en cartes vertes posées sur fond clair.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle du vert qui valide",
+        "body": "Le vert feuille signifie « fait, coché, acquis ». Il ne sert ni à décorer ni à porter des paragraphes.",
+        "section": "colors"
+      },
+      {
+        "name": "La règle de l'enseigne",
+        "body": "Tout ce qui est titre passe par la classe de titre : Bricolage Grotesque condensé (wdth 82), extra-gras, interligne 0,95, approche −0,03 em, `text-wrap: balance`. Le texte courant ne l'emprunte jamais.",
+        "section": "typography"
+      },
+      {
+        "name": "La règle de la mesure courte",
+        "body": "Les titres sont contraints en caractères (14 à 18 ch) pour casser en deux ou trois lignes fortes ; les paragraphes ne dépassent pas 60 ch.",
+        "section": "typography"
+      },
+      {
+        "name": "La règle du plat par défaut",
+        "body": "Les panneaux, champs, listes et images n'ont pas d'ombre. Une ombre n'existe que sous un élément qui flotte au-dessus d'une image, et elle prend la teinte de cet élément.",
+        "section": "elevation"
+      },
+      {
+        "name": "La règle du voile forêt",
+        "body": "Le texte posé sur une photo ou le film se lit sur un dégradé forêt-900 qui monte du bas (92 % à 0 % sur 68 % de la hauteur) ; jamais un voile noir neutre.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** poser le vert forêt (#14532d) en aplat sur des sections entières, et alterner avec le papier (#f8fafc) ou le blanc.",
+      "**Do** réserver l'ambre (#fbbf24) au trait de marqueur, au bouton principal, à un mot mis en valeur sur fond forêt, à la figure Hairline et au focus ; toujours avec du texte encre (#10241a) posé dessus.",
+      "**Do** composer chaque titre avec la classe de titre (Bricolage Grotesque wdth 82, 800, interligne 0,95, −0,03 em) et le contraindre à 14–18 ch.",
+      "**Do** donner aux photos le grain argentique (overlay à 18 %) et des coins de 28 px.",
+      "**Do** utiliser une seule courbe de mouvement (`cubic-bezier(0.16, 1, 0.3, 1)`) et laisser tout le contenu visible sans animation.",
+      "**Do** séparer les éléments de liste par des filets trait (#d9e2dc) de 1 px plutôt que par des cartes."
+    ],
+    "donts": [
+      "**Don't** construire un hero en dégradé décoratif avec photo stock et une rangée de quatre cartes à icônes.",
+      "**Don't** remplir une surface ou un fond de section avec l'ambre, ni le placer sous du texte papier.",
+      "**Don't** utiliser le vert feuille (#16a34a) pour des paragraphes ou du petit texte sur papier : il valide, il ne parle pas.",
+      "**Don't** ajouter des ombres portées aux panneaux, champs ou images ; une ombre ne vit que sous un élément flottant sur une photo, teintée de sa couleur.",
+      "**Don't** utiliser un voile noir neutre sur les images : le voile est forêt-900.",
+      "**Don't** utiliser Bricolage Grotesque pour le texte courant, ni Figtree pour les titres.",
+      "**Don't** montrer de témoignages, logos de partenaires ou chiffres inventés ; les images de personnes sont illustratives."
+    ]
+  }
+}

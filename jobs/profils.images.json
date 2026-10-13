@@ -1,0 +1,12 @@
+{
+  "model": "higgsfield-ai/soul/v2/standard",
+  "defaults": { "aspect_ratio": "3:4", "resolution": "1080p", "batch_size": 1 },
+  "images": [
+    { "id": "commercante",
+      "prompt": "Editorial portrait, an East African market seller in her fifties wearing a golden-yellow headwrap and a deep green blouse, standing at her market stall of fruits and woven baskets, holding her smartphone, proud warm smile, looking at camera. Golden hour amber light, deep green tones, softly blurred market behind, realistic, 85mm, shallow depth of field. No text, no logos." },
+    { "id": "entrepreneuse",
+      "prompt": "Editorial portrait, a young East African woman entrepreneur in her late twenties in a forest-green shirt, in her small home studio, holding a kraft paper parcel in one hand and her smartphone in the other, confident look at camera, shelves of handmade products behind. Warm amber window light, deep green palette, realistic, 85mm, shallow depth of field. No text, no logos." },
+    { "id": "etudiante",
+      "prompt": "Editorial portrait, a young East African university student around twenty with braided hair, wearing a white shirt and a green backpack strap, holding a laptop against her chest on a university campus walkway, bright determined smile, looking at camera. Late afternoon golden light, green trees blurred behind, realistic, 85mm, shallow depth of field. No text, no logos." }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "model": "higgsfield-ai/soul/v2/standard",
+  "defaults": { "aspect_ratio": "3:4", "resolution": "1080p", "batch_size": 1 },
+  "images": [
+    { "id": "atelier",
+      "prompt": "Documentary editorial photo, a small training workshop in an East African city: five women of different ages sit around a wooden table with two laptops and smartphones, one woman in a deep green blouse explains something pointing at a laptop screen, others lean in attentively, notebooks open. Bright natural window light, warm amber highlights, deep green tones in clothing and plants, realistic, candid, 35mm, shallow depth of field. No text, no logos." },
+    { "id": "contenu",
+      "prompt": "Editorial photo, a young East African tailor in her small colorful atelier films a finished wax-print dress on a mannequin with her smartphone mounted on a small tripod, ring of fabric rolls behind her, focused expression. Warm golden afternoon light, deep green and amber color palette, realistic, candid, 35mm, shallow depth of field. No text, no logos." },
+    { "id": "commande",
+      "prompt": "Close-up editorial photo of a woman's hands packing a small kraft paper parcel tied with green string on a wooden table, beside it a smartphone face-down and a handwritten order note, a jar of shea butter going into the parcel. Soft warm daylight, deep green and amber tones, realistic, tactile detail, shallow depth of field. No readable text, no logos." },
+    { "id": "laptop",
+      "prompt": "Editorial portrait, a young East African woman student in a forest-green shirt works on a laptop at a café terrace table, chin resting on her hand, thoughtful then confident, a notebook with sketches beside her. Late afternoon golden light, warm amber highlights, green foliage background softly blurred, realistic, candid, 35mm. No readable screen text, no logos." },
+    { "id": "portrait",
+      "prompt": "Editorial portrait, a smiling East African woman entrepreneur in her forties wearing a golden-yellow headwrap and deep green top, holding her smartphone against her chest, standing in front of her shop doorway, looking at the camera with calm confidence. Soft golden light, deep green and amber palette, realistic, 85mm, shallow depth of field. No text, no logos." }
+  ]
+}
